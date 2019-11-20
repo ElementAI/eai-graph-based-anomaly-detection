@@ -1,0 +1,49 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+eai-graph-tools = {path = ".", editable = true}
+matplotlib = "*"
+networkx = "*"
+numpy = "*"
+pandas = "*"
+scipy = "*"
+sklearn = "*"
+tables = "*"
+tensorboardX = "*"
+torch = "!=1.1.0.post2"
+torch-cluster = "*"
+torch-geometric = "*"
+torch-scatter = "*"
+torch-sparse = "*"
+torchvision = "*"
+tqdm = "*"
+typeguard = "*"
+scikit-learn = "*"
+prettytable = "*"
+toolz = "*"
+cloudpickle = "*"
+partd = "*"
+dask = "*"
+fastparquet = "*"
+distributed = "*"
+bokeh = "*"
+
+[dev-packages]
+flake8 = "*"
+mypy = "*"
+pytest = "*"
+setuptools = "*"
+numpy = "*"
+torch = "*"
+jupyter = "*"
+jupyter_contrib_nbextensions = "*"
+cython = "*"
+line_profiler = {git = "https://github.com/rkern/line_profiler", ref="2.1"}
+pyarrow = "<0.13.0"
+
+[requires]
+python_version = "3.6"
+

@@ -1,0 +1,3 @@
+source /etc/bash.bashrc
+source /etc/common_env.sh
+test -f $USER/.bashrc && source $USER/.bashrc

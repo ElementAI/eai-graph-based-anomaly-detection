@@ -1,0 +1,11 @@
+apache-airflow[crypto,celery,postgres,hive,jdbc,mysql,ssh,datadog,dask]
+dask[complete]
+flask_oauthlib
+ndg-httpsclient
+pyasn1
+pyOpenSSL
+pytz
+redis
+werkzeug
+wheel
+pandas<=0.24.2|>=0.25.2
